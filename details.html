@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>Mol-concepts</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+<link rel="icon" type="image/x-icon" class="rounded" href="static/images/favicon.ico"/>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Bootstrap core CSS -->
+    
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+    <!-- <script src="static/bootstrap/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="static/bootstrap/js/popper.min.js"></script>
+    <script src="static/bootstrap/js/bootstrap.min.js"></script> -->
+
+    <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="static/css/carousel.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .card {
+        border-radius: 0.5rem!important;
+        overflow: hidden;
+        background: transparent;
+        /*margin-bottom: 20px!important;*/
+      }
+
+      .cardimg {
+        width: 100%;
+        height: 225px;
+      }
+    </style>
+
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Mol-concepts</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li> -->
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+    <!-- CARDS LIST -->
+    <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" data-masonry='{"percentPosition": true }'>
+        
+        <div class="col-md-8">
+          <div class="card shadow-sm">
+            <img src="static/assets/images/arch.jpg" class="img-fluid" height="500" width="100%">
+            <div class="card-body">
+              <h5 class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</h5>
+              <div class="d-flex justify-content-between align-items-center my-3">
+                <h6 class="text-primary">Architectures</h6>
+                <!-- <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-primary">Tiling</button>
+                </div> -->
+                <small class="text-muted">9 mins</small>
+              </div>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-md-4">
+          <div class="card shadow-sm mb-4">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="#">Services Génie Civil</a></li>
+              <li class="list-group-item"><a href="#">Services Informatique</a></li>
+              <li class="list-group-item"><a href="#">Services d'électricité</a></li>
+              <li class="list-group-item"><a href="#">Services Topographique</a></li>
+              <li class="list-group-item"><a href="#">Enseignements</a></li>
+              <li class="list-group-item"><a href="#">Projects d'Architectures</a></li>
+              <li class="list-group-item"><a href="#">Science & Technology</a></li>
+              <li class="list-group-item"><a href="#">More Category Title</a></li>
+              <li class="list-group-item"><a href="#">More Category Title</a></li>
+              <li class="list-group-item"><a href="#">More Category Title</a></li>
+              <li class="list-group-item"><a href="#">More Category Title</a></li>
+            </ul>
+          </div>
+
+          <!-- Contacts -->
+          <!-- <div class="container shadow-sm">
+            <div class="text-center mb-2">
+              <h1 class="fw-bolder h4">Contactez-nous</h1>
+              <p class="lead fw-normal text-muted mb-0">Avez-vous un project?</p>
+            </div>
+            <div class="row gx-5 row-cols-2 row-cols-lg-2 py-3 text-center">
+              <div class="col">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-whatsapp"></i></div>
+                <div class="h5 mb-2">WhatsApp</div>
+              </div>
+              <div class="col">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-facebook"></i></div>
+                <div class="h5">Facebook</div>
+              </div>
+              <div class="col">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-twitter"></i></div>
+                <div class="h5">Twitter</div>
+              </div>
+              <div class="col">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-telephone"></i></div>
+                <div class="h5">Call us</div>
+              </div>
+            </div>
+          </div> -->
+
+
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <!-- Call to action-->
+    <aside class="bg-primary bg-gradient rounded-3 p-2 p-sm-5 mt-5">
+      <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
+          <div class="mb-4 mb-xl-0">
+              <div class="fs-3 fw-bold text-white">New products, delivered to you.</div>
+              <div class="text-white-50">Sign up for our newsletter for the latest updates.</div>
+          </div>
+          <div class="ms-xl-4">
+              <div class="input-group mb-2">
+                  <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
+                  <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
+              </div>
+              <div class="small text-white-50">We care about privacy, and will never share your data.</div>
+          </div>
+      </div>
+    </aside>
+  </div>
+
+
+  <!-- Page content-->
+  <section class="py-5">
+    <div class="container px-5">
+        <div class="text-center mb-5">
+          <h1 class="fw-bolder">Contactez-nous</h1>
+          <p class="lead fw-normal text-muted mb-0">Avez-vous un project?</p>
+        </div>
+        <!-- Contact cards-->
+        <div class="row gx-5 row-cols-2 row-cols-lg-4 py-5 text-center">
+          <div class="col">
+            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-whatsapp"></i></div>
+            <div class="h5 mb-2">WhatsApp</div>
+          </div>
+          <div class="col">
+            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-facebook"></i></div>
+            <div class="h5">Facebook</div>
+          </div>
+          <div class="col">
+            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-twitter"></i></div>
+            <div class="h5">Twitter</div>
+          </div>
+          <div class="col">
+            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-telephone"></i></div>
+            <div class="h5">Call us</div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end">
+      <a href="#" class="btn-secondary btn">Back to top</a>
+    </p>
+    <p>&copy; Mol-Concepts 
+      &middot; <a href="#">Privacy</a> 
+      &middot; <a href="#">Terms</a>
+    </p>
+  </footer>
+</main>
+
+
+      
+  </body>
+</html>
